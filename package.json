@@ -1,0 +1,12 @@
+{
+  "name": "pathfinder",
+  "version": "1.0.0",
+  "description": "Terminal maze pathfinding race: A*, Dijkstra and BFS compared step by step, zero dependencies",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.18.0" },
+  "bin": { "pathfinder": "src/cli.ts" },
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
